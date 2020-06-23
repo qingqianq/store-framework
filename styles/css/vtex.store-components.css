@@ -19,11 +19,11 @@
     border: transparent;
 }
 
-.infoCardContainer--vintage {
+.infoCardContainer .vintage {
     background-color: #EDCFD1
 }
 
-.infoCardContainer--metal {
+.infoCardContainer .metal {
     background-color: #E1E1E1
 }
 
