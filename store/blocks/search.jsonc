@@ -3,7 +3,13 @@
     "blocks": [
       "breadcrumb",
       "search-result-layout"
-    ]
+    ],
+    "props": {
+      "context": {
+        "skusFilter": "FIRST_AVAILABLE",
+        "simulationBehavior": "skip"
+      }
+    }
   },
   "search-result-layout": {
     "blocks": [

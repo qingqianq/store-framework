@@ -1,7 +1,6 @@
 {
   "store.home": {
     "blocks": [
-      "search",
       "responsive-layout",
       "responsive-layout.desktop#desktop",
       "responsive-layout.mobile#mobile"
