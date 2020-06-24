@@ -1,5 +1,12 @@
 {
   "store.search": {
-    "blocks": []
+    "blocks": [
+      "breadcrumb"
+    ]
+  },
+  "breadcrumb": {
+    "props": {
+      "showOnMobile": true
+    }
   }
 }
