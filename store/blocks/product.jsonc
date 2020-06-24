@@ -41,9 +41,16 @@
     "children": [
       "sku-selector",
       "shipping-simulator",
-      "product-quantity"
+      "product-quantity",
+      "shipping-simulator"
     ]
   },
+  "sku-selector": {
+    "props": {
+      "hideImpossibleCombinations": false
+    }
+  },
+
   "product-images": {
     "props": {
       "displayThumbnailsArrows": true
