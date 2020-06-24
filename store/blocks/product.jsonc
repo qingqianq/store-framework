@@ -24,6 +24,11 @@
       "product-images"
     ]
   },
+  "product-images": {
+    "props": {
+      "displayThumbnailsArrows": true
+    }
+  },
   "flex-layout.col#right": {
     "props": {
       "verticalAlign": "middle",
@@ -40,7 +45,6 @@
   "flex-layout.row#qty-sku": {
     "children": [
       "sku-selector",
-      "shipping-simulator",
       "product-quantity",
       "shipping-simulator"
     ]
@@ -51,11 +55,6 @@
     }
   },
 
-  "product-images": {
-    "props": {
-      "displayThumbnailsArrows": true
-    }
-  },
   "product-price": {
     "props": {
       "showSavings": true,
