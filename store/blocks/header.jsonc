@@ -1,6 +1,7 @@
 {
     "header": {
         "blocks": [
+            "vtex.menu@2.x:menu",
             "header-layout.desktop",
             "header-layout.mobile"
         ]
