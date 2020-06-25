@@ -16,7 +16,7 @@
     },
     "vtex.menu@2.x:menu#major": {
         "props": {
-            "orientation": "horizontal"
+            "orientation": "vertical"
         },
         "children": [
             "menu-item#refrigerators",
@@ -31,12 +31,15 @@
     },
     "vtex.menu@2.x:menu#small":{
         "props": {
-            "orientation": "horizontal"
+            "orientation": "vertical"
         },
         "children": [
             "menu-item#cameras",
             "menu-item#laptops",
-            "menu-item#tvs"
+            "menu-item#tvs",
+            "menu-item#mixers",
+            "menu-item#toasters",
+            "menu-item#coffee"
         ]
     }
 }
