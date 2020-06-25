@@ -39,6 +39,9 @@
             "menu-item#coffee"
         ]
     },
+    "vtex.menu@2.x:submenu#electronics": {
+        "children": ["vtex.menu@2.x:menu#electronics"]
+    },
     "vtex.menu@2.x:menu#electronics": {
         "props": {
             "orientation": "vertical"
@@ -48,8 +51,6 @@
             "menu-item#laptops",
             "menu-item#tvs"
         ]
-    },
-    "vtex.menu@2.x:submenu#electronics":{
-        "children":["vtex.menu@2.x:submenu#electronics"]
     }
+
 }
