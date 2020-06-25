@@ -8,7 +8,9 @@
       }
     },
     "children": [
-      "vtex.menu@2.x:submenu#major"
+      "vtex.menu@2.x:submenu#major",
+      "vtex.menu@2.x:submenu#small",
+      "vtex.menu@2.x:submenu#electronics"
     ]
   },
   "menu-item#small-appliances": {
@@ -19,8 +21,7 @@
         "categoryId": 2,
         "text": "Small Appliances"
       }
-    },
-    "children": ["vtex.menu@2.x:submenu#small"]
+    }
   },
   "menu-item#electronics": {
     "props": {
@@ -30,10 +31,7 @@
         "categoryId": 3,
         "text": "Electronics"
       }
-    },
-    "children": [
-      "vtex.menu@2.x:submenu#electronics"
-    ]
+    }
   },
   "menu-item#refrigerators": {
     "props": {
