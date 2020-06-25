@@ -1,0 +1,20 @@
+{
+    "store.custom#landing": {
+        "blocks": [
+            "image#landingbanner",
+            "search-result-layout.customQuery"
+        ]
+    },
+    "image#landingbanner": {
+        "props": {
+            "minWidth": "100%"
+        }
+    },
+    "search-result-layout.customQuery": {
+        "props": {
+            "querySchema": {
+                "orderByField": "OrderByBestDiscountDESC"
+            }
+        }
+    }
+}
